@@ -94,10 +94,9 @@ Follow these instructions to set up and run the application on your local machin
    cd Book-Management-API
 
 3. Install dependencies using npm or yarn:
-   
    npm install
-   # or
-  yarn install
+# or
+yarn install
 
 4.Start the server:
   npm start
