@@ -27,7 +27,7 @@ app.use(express.json());
 app.use("/books", booksRoute);
 
 app.get("/", (req,res)=>{
-  res.send('<h1>This is the landing Page of Book Management. Use /books route to see the books .</h1>' )
+  res.send('<h1>This is the Home Page of Book Management. Use /books route to see the books .</h1>' )
 });
 
 app.listen(PORT, function () {
