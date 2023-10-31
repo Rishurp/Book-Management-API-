@@ -27,7 +27,7 @@ app.use(express.json());
 app.use("/books", booksRoute);
 
 app.get("/", (req,res)=>{
-  res.send('<h1>This is the Home Page of Book Management. Use /books route to see the books .</h1>' )
+  res.send('<h1><h1>Welcome to the Book-Management-API homepage!</h1><h3>To explore our digital book library, visit the <a href="/books">/books</a> endpoint to view and interact with book data.</h3>' )
 });
 
 app.listen(PORT, function () {
